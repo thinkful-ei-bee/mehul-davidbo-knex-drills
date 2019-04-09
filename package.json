@@ -7,7 +7,7 @@
     "predeploy": "npm audit",
     "deploy": "git push heroku master",
     "test": "mocha --require test/setup.js",
-    "start": "node src/practice.js"
+    "start": "node src/drills.js"
   },
   "keywords": [],
   "author": "",
@@ -23,7 +23,7 @@
   },
   "devDependencies": {
     "chai": "^4.2.0",
-    "mocha": "^6.0.2",
+    "mocha": "^6.1.2",
     "nodemon": "^1.18.10",
     "supertest": "^4.0.2"
   }

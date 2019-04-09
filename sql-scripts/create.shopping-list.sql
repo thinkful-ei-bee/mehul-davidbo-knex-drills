@@ -3,7 +3,7 @@ CREATE TYPE grocery AS ENUM (
     'Main',
     'Snack',
     'Lunch',
-    'Breakfast',
+    'Breakfast'
 );
 
 CREATE TABLE IF NOT EXISTS amazong_products (
