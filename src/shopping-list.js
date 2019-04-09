@@ -9,5 +9,5 @@ const knexInstance = knex({
   connection: process.env.DB_URL,
 });
 
-console.log(ShoppingListService.getAllItems(knexInstance)
-  .then(res => console.log(res)));
+ShoppingListService.getAllItems(knexInstance)
+  .then(res => console.log(res));
